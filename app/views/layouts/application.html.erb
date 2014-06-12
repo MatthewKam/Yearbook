@@ -2,12 +2,15 @@
 <html>
 <head>
   <title>Yearbook</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "application"%>
+  <%= javascript_include_tag "application"%>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<video controls muted autoplay loop poster="" id="bgvid">
+		<source src="GA_LA.mp4" type="video/mp4">
 
+	</video>
 <%= yield %>
 
 </body>
