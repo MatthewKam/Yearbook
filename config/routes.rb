@@ -1,11 +1,13 @@
 Yearbook::Application.routes.draw do
-  get "students/index"
-  get "students/new"
-  get "students/create"
-  get "students/show"
-  get "students/edit"
-  get "students/update"
-  get "students/destroy"
+  resources :students
+  root 'students#index'
+  # get "students/index"
+  # get "students/new"
+  # get "students/create"
+  # get "students/show"
+  # get "students/edit"
+  # get "students/update"
+  # get "students/destroy"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
