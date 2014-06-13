@@ -1,6 +1,7 @@
 Yearbook::Application.routes.draw do
+  resources :static_pages
   resources :students
-  root 'students#index'
+  root 'static_pages#index'
   # get "students/index"
   # get "students/new"
   # get "students/create"
