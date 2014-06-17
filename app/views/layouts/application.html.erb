@@ -11,12 +11,12 @@
 <div class="home">
 <div class="navbar">
 
-	<h1 class="navlink">HOME</h1>
+	<%= link_to "HOME", static_pages_path, class: "navlink"%>
 	
 	<%= link_to "ALUMNI", students_path, class: "navlink" %>
 	
-	<h1 class="navlink">WDI</h1>
-	<h1 class="navlink">GA</h1>
+	<a href="https://generalassemb.ly/education/web-development-immersive" class="navlink" target="_blank">WDI</a>
+	<a href="http://generalassemb.ly" class="navlink" target="_blank">GA</a>
 	<h1 class="navlink">ABOUT</h1>
 
 </div>
