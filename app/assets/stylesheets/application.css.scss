@@ -96,3 +96,36 @@ video#bgvid {
    background: url("") no-repeat;
    background-size: cover;
 }
+
+.student div{
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.student{
+	border: 1px solid black;
+	width: 280px;
+	display: inline-block;
+	margin: 0 25px;
+}
+.ghubbutton{
+	width: 90px;
+	height: 100px;
+	background-image: url('github.png');
+	background-size: cover;
+}
+
+.ghubbutton:hover{
+	width: 90px;
+	height: 100px;
+	background-color: green;
+	background-image: url('github.png');
+	background-size: cover;	
+}
+
+.linkedinbutton{
+	width: 100px;
+	height: 100px;
+	background-image: url('linkedin.png');
+	background-size: cover;
+}

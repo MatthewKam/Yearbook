@@ -8,7 +8,7 @@ class StudentsController < ApplicationController
   end
 
   def create
-    @student = Student.new(params.require(:student).permit(:name, :email, :city, :state, :description, :linked_in, :website, :github))
+    @student = Student.new(student_params)
     if @student.save
       redirect_to students_path
     else 
@@ -26,7 +26,7 @@ class StudentsController < ApplicationController
 
   def update
     @student = Student.find(params[:id])
-    if @student.update_attributes(params.require(:student).permit(:name, :email, :city, :state, :description, :linked_in, :website, :github))
+    if @student.update_attributes(student_params)
       redirect_to students_path
     else 
       render 'edit'
@@ -37,5 +37,9 @@ class StudentsController < ApplicationController
     @student = Student.find(params[:id])
     @student.delete
     redirect_to students_path
+  end
+  protected
+  def student_params
+    params.require(:student).permit(:name, :email, :city, :state, :description, :linked_in, :website, :github)
   end
 end

@@ -1,20 +1,33 @@
-<div class="index">
+<!-- <div class="index">
 <h1>Students</h1>
-<%=link_to 'new', new_student_path%><br>
+<%#=link_to 'new', new_student_path%><br>
 	<div class="big">
-	<% @students.each do |s|%>
+	<#% @students.each do |s|%>
 		<div class="small">
-			<div="content"><%=s.name%></div><br>
-			<div="content"><%=s.email%></div><br>
-			<div="content"><%=s.city%></div><br>
-			<div="content"><%=s.state%></div><br>
-			<div="content"><%=s.description%></div><br>
-			<div="content"><%=s.linked_in%></div><br>
-			<div="content"><%=s.website%></div><br>
-			<div="content"><%=s.github%></div><br>
-			<%=link_to 'edit', student_path(s)%>
-			<%=link_to 'delete', s, method: :delete, data: {confirm:'Are you sure?'}%>
+			<div="content"><%#=s.name%></div><br>
+			<div="content"><%#=s.email%></div><br>
+			<div="content"><%#=s.city%></div><br>
+			<div="content"><%#=s.state%></div><br>
+			<div="content"><%#=s.description%></div><br>
+			<div="content"><%#=s.linked_in%></div><br>
+			<div="content"><%#=s.website%></div><br>
+			<div="content"><%#=s.github%></div><br>
+			<#%=link_to 'edit', student_path(s)%>
+			<#%=link_to 'delete', s, method: :delete, data: {confirm:'Are you sure?'}%>
 		</div>
-	<%end%>
+	<#%end%>
+	</div>
+</div> -->
+<div x-ng-app="yearbook_app">
+	<div x-ng-controller="YearbookCtrl">
+		<div class="student" ng-model="students" ng-repeat="student in students">
+			<img src="{{student.image}}" style="width:100px"> 
+			{{student.name}}<br />
+			{{student.location}}<br />
+			
+			<a href="{{student.github}}"><div class="ghubbutton"> </div></a>
+			<a href="{{student.linkedin}}"><div class="linkedinbutton"></div></a><br />
+			{{student.pwebsite}}
+		</div>
 	</div>
 </div>
