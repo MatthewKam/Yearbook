@@ -8,14 +8,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="home">
+<div>
 <div class="navbar">
 
 	<%= link_to "HOME", static_pages_path, class: "navlink"%>
 	
 	<%= link_to "ALUMNI", students_path, class: "navlink" %>
 	
-	<a href="https://generalassemb.ly/education/web-development-immersive" class="navlink" target="_blank">WDI</a>
+	<a href="#wdihome" class="navlink">WDI</a>
 	<a href="http://generalassemb.ly" class="navlink" target="_blank">GA</a>
 	<h1 class="navlink">ABOUT</h1>
 
@@ -24,5 +24,8 @@
 <%= yield %>
  <%= javascript_include_tag "application"%>
 </div>
+
+
 </body>
+
 </html>
