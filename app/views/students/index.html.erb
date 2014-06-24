@@ -1,22 +1,44 @@
+<%= javascript_include_tag "application"%>
+<script src="assets/modernizr.custom.97074.js"></script>
 <div class="alumni_page">
 	<div x-ng-app="yearbook_app">
 		<div x-ng-controller="YearbookCtrl">
 			<div class="student_container">
 				<div class="student" ng-model="students" ng-repeat="student in students">
-					<img src="{{student.image}}" class="studentpic"> 
-					
-
-					{{student.name}}<br />
-					
-
-					{{student.location}}<br />
-					
-					<a href="{{student.github}}"><div class="ghubbutton"> </div></a>
-					<a href="{{student.linkedin}}"><div class="linkedinbutton"></div></a><br />
-					{{student.pwebsite}}<br>
-					{{student.contact}}
+					<section>
+						<ul class="da-thumbs" id="da-thumbs">
+							<li>
+								<img src="{{student.image}}" class="studentpic"> 
+								<div class="da-thumbs1">
+									<span class="da-thumbs2">
+										<div id="name">{{student.name}}</div><br />
+										<div id="location">{{student.location}}</div><br />
+											<div id="buttons">
+												<a href="{{student.github}}" target="_blank">
+													<div class="ghubbutton"> </div>
+												</a>
+												<a href="{{student.linkedin}}" target="_blank" id="linkedin">
+													<div class="linkedinbutton"></div>
+												</a><br />
+											</div>
+										<div id="website"><a href="{{student.pwebsite}}" target="_blank">mySite</a></div><br>
+										<div id="email"><a href="mailto:{{student.contact}}?subject=GA ROCKS"><strong>CONTACT</srong></a></div>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</section>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/jquery.hoverdir.js"></script>	
+		<script type="text/javascript">
+			$(function() {
+			
+				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+			});
+		</script>
 </div>
