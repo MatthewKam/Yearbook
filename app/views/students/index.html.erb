@@ -1,4 +1,3 @@
-<%= javascript_include_tag "application"%>
 <script src="assets/modernizr.custom.97074.js"></script>
 <div class="alumni_page">
 	<div x-ng-app="yearbook_app">
@@ -8,7 +7,7 @@
 					<section>
 						<ul class="da-thumbs" id="da-thumbs">
 							<li>
-								<img src="{{student.image}}" class="studentpic"> 
+								<img ng-src="{{student.image}}" class="studentpic"> 
 								<div class="da-thumbs1">
 									<span class="da-thumbs2">
 										<div id="name">{{student.name}}</div><br />
