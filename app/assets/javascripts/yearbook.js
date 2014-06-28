@@ -70,7 +70,7 @@ yearbookApp.controller('YearbookCtrl', ['$scope', function($scope) {
 		pwebsite: "http://www.dinnagonzales.com",
 		contact: "apdonova@gmail.com"
 	},
-	{	image: '/assets/Andrew.jpg',
+	{	image: '/assets/anthony.png',
 		name: 'Anthony Corrado',
 		location: 'Orange County, CA',
 		github: "https://github.com/dinnagonzales",
