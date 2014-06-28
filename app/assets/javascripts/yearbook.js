@@ -14,26 +14,28 @@ yearbookApp.controller('YearbookCtrl', ['$scope', function($scope) {
     	$scope.randomIndex = Math.floor($scope.videoUrl.length*Math.random());
       $scope.randomVideo = $scope.videoUrl[$scope.randomIndex];
     };
-    document.getElementById('bgvid').addEventListener('ended',playNext,false);
-    function playNext(e) {
-        if(!e) { e = window.event; }
-					if ($scope.randomIndex == $scope.videoUrl.length - 1) {
-						console.log("you have hit the end");
-						$scope.randomIndex = 0;
-						$scope.$apply(function() {
-							$scope.randomVideo = $scope.videoUrl[$scope.randomIndex];
-							document.getElementById('bgvid').play();
-						});
-					} else {
-						console.log('Incrementing');
-						$scope.randomIndex++;
-						$scope.$apply(function() {
-							$scope.randomVideo = $scope.videoUrl[$scope.randomIndex];
-							document.getElementById('bgvid').play();
-						});
-					}
-    }
 
+    $scope.repeatVideo = function() {
+    document.getElementById('bgvid').addEventListener('ended',playNext,false);
+	    function playNext(e) {
+	        if(!e) { e = window.event; }
+						if ($scope.randomIndex == $scope.videoUrl.length - 1) {
+							console.log("you have hit the end");
+							$scope.randomIndex = 0;
+							$scope.$apply(function() {
+								$scope.randomVideo = $scope.videoUrl[$scope.randomIndex];
+								document.getElementById('bgvid').play();
+							});
+						} else {
+							console.log('Incrementing');
+							$scope.randomIndex++;
+							$scope.$apply(function() {
+								$scope.randomVideo = $scope.videoUrl[$scope.randomIndex];
+								document.getElementById('bgvid').play();
+							});
+						}
+	    }
+	}
 
     $scope.students = [
 	{	image: '/assets/Aaron.jpg',

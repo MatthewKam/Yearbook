@@ -23,6 +23,10 @@ a:hover{
 	color: #980000  !important;
 }
 
+#container {
+	overflow-x: hidden;
+}
+
 .navbar {
 	padding: 30px;
 	width: 100%;
@@ -107,22 +111,26 @@ video#bgvid {
 
 
 .wdihome{
-	position: scroll;
-	background-color: white;
+	background-image:url('/assets/ssecondPageHome.png');
+	background-size:contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #e8e9e9;
 	margin-top: 90px;
 	width: 100%;
 	height: 775px;
-	z-index:100px;
+	z-index:100;
 }
 
 .classphotohome{
-	background-image: url('group.JPG');
+
+	background-image: url('/assets/groupPhoto.png');
+	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
-	height: 800px;
-	z-index: -100px;
-
+	width: 105vw;
+	height: 105vh;
+	overflow: hidden;
 }
 #arrowscroll{
 

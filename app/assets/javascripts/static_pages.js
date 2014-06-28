@@ -16,8 +16,6 @@
     });
   });
 
-
-
   $(document).ready(function(){
     $('a[href="#classphotohome"]').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
