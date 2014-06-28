@@ -3,6 +3,7 @@
 <div class="alumni_page">
 	<div x-ng-app="yearbook_app">
 		<div x-ng-controller="YearbookCtrl">
+		<div class="space"></div>
 			<div class="student_container">
 				<div class="student" ng-model="students" ng-repeat="student in students">
 					<section>
@@ -22,10 +23,10 @@
 												</a><br />
 											</div>
 										<div id="website" class="link">
-											<a href="{{student.pwebsite}}" target="_blank">mySite</a>
+											<a href="{{student.pwebsite}}" target="_blank" class="proflink">Portfolio</a>
 										</div><br>
 										<div id="email" class="link">
-											<a href="mailto:{{student.contact}}?subject=GA ROCKS!!!"><strong>CONTACT</srong></a>
+											<a href="mailto:{{student.contact}}?subject=GA ROCKS!!!"><strong>Contact Me</srong></a>
 										</div>
 									</span>
 								</div>

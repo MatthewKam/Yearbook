@@ -84,7 +84,7 @@ yearbookApp.controller('YearbookCtrl', ['$scope', function($scope) {
 		pwebsite: "http://www.dinnagonzales.com",
 		contact: "aabrahamians@gmail.com"
 	},
-	{	image: '/assets/Brian.jpg',
+	{	image: '/assets/Brian.png',
 		name: 'Brian Gordon',
 		location: 'Orange County, CA',
 		github: "https://github.com/dinnagonzales",
@@ -100,7 +100,7 @@ yearbookApp.controller('YearbookCtrl', ['$scope', function($scope) {
 		pwebsite: "http://www.dinnagonzales.com",
 		contact: "aarontsang8@gmail.com"
 	},
-	{	image: '/assets/Callie.jpg',
+	{	image: '/assets/charly.png',
 		name: 'Charly Yoon',
 		location: 'Los Angeles, CA',
 		github: "https://github.com/charlyy",
@@ -268,7 +268,7 @@ yearbookApp.controller('YearbookCtrl', ['$scope', function($scope) {
 		pwebsite: "http://www.dinnagonzales.com",
 		contact: "typeinmichael@gmail.com"
 	},
-	{	image: '/assets/MikeD.jpg',
+	{	image: '/assets/MikeD.png',
 		name: 'Mike Duval',
 		location: 'Encino, CA',
 		github: "https://github.com/mikeduval42",
