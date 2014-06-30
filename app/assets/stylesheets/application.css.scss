@@ -12,19 +12,13 @@
  *= require foundation_and_overrides
  *= require_tree .
  */
-/*p { font-family: 'MyWebFont', Arial, sans-serif; }*/
 body{
-	margin: 0px;
 	font-family: 'Muli', sans-serif;
 }
  
 a:hover{
 	text-decoration:none;
 	color: #980000  !important;
-}
-
-#container {
-	overflow-x: hidden;
 }
 
 .navbar {
@@ -42,14 +36,8 @@ a:hover{
 }
 
 .home {
-	margin: 0;
 	width: 100%;
-	height: 695px;
-}
-.ga_logoimage{
-	width: 300px;
-	height: auto;
-	
+	height: 745px;
 }
 
 .GAlogo{
@@ -59,18 +47,19 @@ a:hover{
 	height: auto;
 	text-align: center !important;
 	margin: 0 auto;
+
 }
 
 .logobox{
 	height: 320px;
-	
 	text-align: center;
+	margin:0 auto;
 }
 
 .hometext{
 	color: white;
 	font-size: 15px;
-	letter-spacing:1.5px
+	letter-spacing:1.5px;
 }
 
 .hometext1{
@@ -101,9 +90,7 @@ a:hover{
 video#bgvid {
    position: fixed; right: 0; bottom: 0;
    min-width: 100%; 
-   min-height: 100%;
-   width: auto; 
-   height: 800px; 
+   min-height: 100%;  
    z-index: -100;
    background: url("") no-repeat;
    background-size: cover;
@@ -116,24 +103,47 @@ video#bgvid {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-color: #e8e9e9;
-	margin-top: 90px;
 	width: 100%;
-	height: 775px;
+	height: 805px;
 	z-index:100;
+	text-align:center;
 }
 
 .classphotohome{
-
-	background-image: url('/assets/groupPhoto.png');
-	background-position: center center;
+	background-image:url('/assets/groupPhoto.JPG');
 	background-size: cover;
-	background-repeat: no-repeat;
-	width: 105vw;
-	height: 105vh;
+	background-position:center center;
+	width: 100%;
+	height:100vh;
 	overflow: hidden;
+	background-repeat:no-repeat;
 }
-#arrowscroll{
+#house{
+	display:inline;
+	width:355px;
+	float:right;
+}
+#ilm{
+	background-image: url("/assets/Jojo.png");
+	background-size:cover;
+	width:275px;
+	height:90px;
+	margin-top:350px;
+	margin-left:26px;
+	position:absolute;
+}
+#jojo{
+	background-image:url("/assets/Jojo.png");
+	background-position:right;
+	background-size:cover;
+	height:150px;
+	width:270px;
+	margin-top:440px;
+	margin-left:20px;
 
+}
+
+#arrowscroll{
 	margin:0 auto;
 	width: 50px;
 	height: 50px;
@@ -141,14 +151,14 @@ video#bgvid {
 	background-size: cover;
 }
 #arrowscroll2{
-	position:relative;
-	margin:0 auto;
 	width: 50px;
 	height: 50px;
 	background-image: url('down.png');
 	background-size: cover;
+	position:absolute;
+	margin-top:730px;
+	left:47%;
 }
-
 
 
 
