@@ -1,8 +1,9 @@
  <%= javascript_include_tag "application"%>
 <script src="assets/modernizr.custom.97074.js"></script>
+<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 <div class="alumni_page">
-	<div x-ng-app="yearbook_app" ng-init="repeatVideo();">
-		<div x-ng-controller="YearbookCtrl">
+	<div x-ng-app="student_app" >
+		<div x-ng-controller="StudentCtrl">
 		<div class="space"></div>
 			<div class="student_container">
 				<div class="student" ng-model="students" ng-repeat="student in students">

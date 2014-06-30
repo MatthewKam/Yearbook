@@ -1,6 +1,7 @@
 <div id="container">
-	<div x-ng-app="yearbook_app" class="home">
-		<div x-ng-controller="YearbookCtrl">
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+	<div x-ng-app="yearbook_app" class="home" >
+		<div x-ng-controller="YearbookCtrl" x-ng-init="repeatVideo()">
 
 		<video ng-src="{{randomVideo}}" id="bgvid" autoplay="true" muted="true"></video>
 
