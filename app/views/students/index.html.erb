@@ -1,5 +1,45 @@
- <%= javascript_include_tag "application"%>
+<%= javascript_include_tag "application"%>
 <script src="assets/modernizr.custom.97074.js"></script>
+
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+  <!--   <li class="name" id="smalllogotop">
+      <#%= link_to " ", static_pages_path, class: "navlink"%>
+    </li> -->
+
+    <li class="topleftlogo">
+    <%= link_to image_tag('gaHeader.png'), static_pages_path%>
+	</li>
+
+
+
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span> <%= image_tag('hambaga.png', class: "hambaga") %></span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <!-- Left Nav Section -->
+    <ul class="left">
+      
+      
+      <li><%= link_to "ALUMNI", students_path, class: "navlink" %></li>
+      <li><%= link_to "ABOUT WDI", students_path, class: "navlink" %></li>
+      <li><a href="#" data-reveal-id="modal" class= "navlink">CREATORS</a></li>
+
+        <div id="modal" class="reveal-modal" data-reveal>
+            <h1>Create By:</h1>
+              <p>Dinna Gonzales & Matt Kam</p>
+            <h2>Contributors</h2>
+              <p>Shane Fitzgerald, Paul Kim, Kris Coulson, Mike Wong, Christa Hartsock and Albert Liao.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+
+       
+    </ul>
+  </section>
+</nav>
+
 <div class="alumni_page">
 	<div x-ng-app="student_app" >
 		<div x-ng-controller="StudentCtrl">

@@ -13,7 +13,7 @@
  *= require_tree .
  */
 body{
-	font-family: 'Muli', sans-serif;
+	font-family: 'Muli', sans-serif !important;
 }
  
 a:hover{
@@ -21,18 +21,18 @@ a:hover{
 	color: #980000  !important;
 }
 
-.navbar {
-	padding: 30px;
-	width: 100%;
-	height: 40px;
 
-}
 .navlink{
 	text-decoration: none;
-	color: white;
+	color: black !important;
 	display: inline;
 	margin-right: 30px;
-	font-size: 15px;
+	font-size: 35px !important;
+	font-weight: bold !important;
+	font-family: 'BenchNine', sans-serif !important;
+}
+.navlink:hover{
+	background-color: transparent !important;
 }
 
 .home {
@@ -166,4 +166,32 @@ video#bgvid {
 	margin:0;
 }
 
+.top-bar{
+	background-color: rgba(255,255,255,0.2) !important;
+}
+.top-bar ul li{
+	background-color: transparent!important;
+}
+
+
+
+.topleftlogo{
+	margin: 10px;
+	width: 110px;
+
+}
+.topleftlogo:hover{
+	content: url('gaHeader2.png');
+	/*background-image: url('gaHeader2.png');*/
+	-webkit-transition-delay: 0.5s ease;
+
+}
+
+.hambaga{
+	max-width: 40px ;
+}
+
+.hambaga:hover{
+	content: url('hambaga2.png');
+}
 
