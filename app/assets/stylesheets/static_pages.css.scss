@@ -57,3 +57,150 @@
 .ch-item:hover .ch-info {
     transform: rotate3d(0,1,0,-180deg);
 }
+
+#headhome{
+    width:100%;
+    height:225px;
+    background-color: #231f20;
+}
+#homecontain{
+    height:200px;
+    width:80%;
+    margin-left:100px;
+}
+#headhome h1{
+    color:#e8e9e9;
+    font-family: 'BenchNine', sans-serif !important;
+    font-size:115px;
+    letter-spacing: 1.5px;
+    text-decoration:underline;
+    margin-top:0px;
+    text-align: left;
+}
+#headhome p{
+    color:#e8e9e9;
+    font-family: 'BenchNine', sans-serif !important;
+    font-size:65px;
+    letter-spacing:2px;
+    margin-top:-56px;
+    text-align:left;
+}
+#bodyhome{
+    width:100%;
+    height:605px;
+    background-color:#e8e9e9;
+}
+#skills{
+    background-image:url('skills.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:525px;
+    width:650px;
+    position:absolute;
+    margin-top:30px;
+    margin-left:100px;
+}
+#laptop{
+    background-image:url('skillsLaptop.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    height:520px;
+    width:660px;
+    position:relative;
+    margin-top:30px;
+    float:right;
+    margin-right:70px;
+}
+
+@media screen and (max-width:900px){
+#homecontain{
+    height:150px;
+    width:80%;
+    margin-left:90px;
+    padding-top: 40px;
+}
+#headhome h1{
+    font-size:70px;
+    letter-spacing: 1px;
+    text-decoration:underline;
+    margin-top:0px;
+    text-align: left;
+}
+#headhome p{
+    color:#e8e9e9;
+    font-family: 'BenchNine', sans-serif !important;
+    font-size:45px;
+    letter-spacing:2px;
+    margin-top:-40px;
+    text-align:left;
+}
+#bodyhome{
+    width:100%;
+    height:605px;
+    background-color:#e8e9e9;
+}
+#skills{
+    height:438px;
+    width:400px;
+    position:absolute;
+    margin-top:105px;
+    margin-left:33px;
+}
+#laptop{
+    height:370px;
+    width:428px;
+    position:relative;
+    margin-top:115px;
+    float:right;
+    margin-right:50px;
+}
+}
+@media screen and (max-width:600px){
+#homecontain{
+    height:150px;
+    width:80%;
+    margin-left:50px;
+    padding-top: 38px;
+}
+#headhome h1{
+    font-size:47px;
+    letter-spacing: 1px;
+    text-decoration:underline;
+    margin-top:-23px;
+    text-align: left;
+}
+#headhome p{
+    color:#e8e9e9;
+    font-family: 'BenchNine', sans-serif !important;
+    font-size:24px;
+    text-align:left;
+    margin-top:0;
+    margin-left: -4px;
+}
+#bodyhome{
+    width:100%;
+    height:605px;
+    background-color:#e8e9e9;
+}
+#skills{
+    height:256px;
+    width:289px;
+    position:absolute;
+    margin-top:15px;
+    margin-left:55px;
+}
+#laptop{
+    height:273px;
+    width:315px;
+    position:relative;
+    margin-top:294px;
+    float:right;
+    margin-right:50px;
+}
+}
+
+
+
+
+
+

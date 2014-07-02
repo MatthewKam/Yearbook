@@ -19,11 +19,15 @@
     <!-- Right Nav Section -->
     <!-- Left Nav Section -->
     <ul class="right">
-      
-      
-      <li><%= link_to "ALUMNI", students_path, class: "navlink" %></li>
-      <li><%= link_to "ABOUT WDI", static_pages_path(anchor:'wdihome'), class: "navlink" %></li>
-      <li><a href="#" data-reveal-id="modal" class= "navlink">CREATORS</a></li>
+      <li>
+      	<%= link_to "ALUMNI", students_path, class: "navlink" %>
+      </li>
+      <li>
+      	<%= link_to "ABOUT WDI", static_pages_path(anchor:'wdihome'), class: "navlink" %>
+      </li>
+      <li>
+      	<a href="#" data-reveal-id="modal" class= "navlink">CREATORS</a>
+      </li>
   		<div id="modal" class="reveal-modal" data-reveal>
             <h1>Built By:</h1>
               <p><a href="https://www.linkedin.com/in/dinnagonzales">Dinna Gonzales</a> & 
@@ -37,9 +41,7 @@
             	<a href="https://www.linkedin.com/pub/shane-fitzgerald/77/688/145/">Shane Fitzgerald</a>, and 
             	<a href="https://www.linkedin.com/pub/christa-hartsock/2a/538/529">Christa Hartsock.</a></p>
             <a class="close-reveal-modal">&#215;</a>
-        </div>
-
-       
+        </div>    
     </ul>
   </section>
 </nav>
@@ -53,11 +55,11 @@
 					<div class="ch-item ch-img-1">
 		        <div class="ch-info-wrap">
 	            <div class="ch-info">
-                <div class="ch-info-front ch-img-1"></div>
-                <div class="ch-info-back"></div>    
+              	<div class="ch-info-front ch-img-1"></div>
+              	<div class="ch-info-back"></div>    
 	            </div>
 		        </div>
-				  </div>
+					</div>
 				</div>
 				<div class="logotext">
 					<h1 class= "hometext">WEB DEVELOPMENT IMMERSIVE 5/6</h1>
@@ -65,14 +67,27 @@
 					<h1 class= "hometext2">CALIFORNIA</h1>
 					<h1 class= "yeartext">2014</h1>
 				</div>
-					<a href= "#wdihome"><div id ="arrowscroll"></div></a>
+				<a href= "#wdihome"><div id ="arrowscroll"></div></a>
 			</div>
 		</div>
 	</div>
 	<div class="wdihome" id="wdihome">
-		<a href= "#classphotohome">
-			<div id ="arrowscroll2"></div>
-		</a>
+		
+		<div id="headhome">
+			<div id="homecontain">
+				<h1>WEB DEVELOPMENT IMMERSIVE</h1>
+				<p>TWELVE WEEKS. ALL DAY. EVERY DAY.</p>
+			</div>
+		</div>
+		<div id="bodyhome">
+			<div id="skills"></div>
+			<div id="laptop"></div>
+			<div>
+				<a href= "#classphotohome">
+					<div id ="arrowscroll2"></div>
+				</a>
+			</div>
+		</div>
 	</div>
 	<div class="classphotohome" id="classphotohome">
 		<div id="house">
@@ -80,10 +95,8 @@
 			<div id="jojo"></div>
 		</div>
 	</div>
-<div class="footer">
-	Created by: Dinna Gonzales and Matt Kam<br/>
-	Contributors: Paul Kim, Mike Wong, Albert Liao, Christa Hartsock, Shane Fitzgerald, and Kris Coulson.
-
-
-</div>
+	<div class="footer">
+		Created by: Dinna Gonzales and Matt Kam<br/>
+		Contributors: Paul Kim, Mike Wong, Albert Liao, Christa Hartsock, Shane Fitzgerald, and Kris Coulson.
+	</div>
 </div>
