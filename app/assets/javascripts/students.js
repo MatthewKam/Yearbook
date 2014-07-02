@@ -141,7 +141,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		name: 'James Milani',
 		location: 'Santa Monica, CA',
 		github: "https://github.com/milanij",
-		linkedin: "www.linkedin.com/pub/james-milani/71/a68/179",
+		linkedin: "http://www.linkedin.com/pub/james-milani/71/a68/179",
 		pwebsite: "http://www.dinnagonzales.com",
 		contact: "james.milani@gmail.com"
 	},
@@ -149,7 +149,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		name: 'Jeffrey Takaki',
 		location: 'Torrance, CA',
 		github: "https://github.com/jeffreytakaki",
-		linkedin: "www.linkedin.com/pub/jeff-takaki/b/681/667/",
+		linkedin: "http://www.linkedin.com/pub/jeff-takaki/b/681/667/",
 		pwebsite: "http://www.dinnagonzales.com",
 		contact: "jtakaki1@gmail.com"
 	},
@@ -197,7 +197,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		name: 'Mary Keenan',
 		location: 'Orange County, CA',
 		github: "https://github.com/mkeenan",
-		linkedin: "www.linkedin.com/pub/mary-keenan/1/145/b54/",
+		linkedin: "http://www.linkedin.com/pub/mary-keenan/1/145/b54/",
 		pwebsite: "http://www.dinnagonzales.com",
 		contact: "mkeenan.asher@gmail.com"
 	},
@@ -301,7 +301,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		name: 'Steven Lazatin',
 		location: 'Orange County, CA',
 		github: "https://github.com/slazatin",
-		linkedin: "www.linkedin.com/pub/steven-lazatin/48/61/6a8",
+		linkedin: "http://www.linkedin.com/pub/steven-lazatin/48/61/6a8",
 		pwebsite: "http://www.dinnagonzales.com",
 		contact: "slazatin@gmail.com"
 	},

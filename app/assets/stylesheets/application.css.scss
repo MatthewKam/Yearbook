@@ -182,8 +182,8 @@ video#bgvid {
 
 
 #topleftlogo{
-	
 	margin: 10px;
+	margin-left:20px;
 	width: 110px;
 	background-image: url('gaHeader.png');
 	background-size: cover;
@@ -228,4 +228,7 @@ video#bgvid {
 .close-reveal-modal{
 	text-decoration: none !important;
 }
-
+.top-bar-section li:not(.has-form) a:not(.button){
+	padding:0 6px !important;
+	text-align: center !important;
+}
