@@ -53,7 +53,7 @@ a:hover{
 .logobox{
 	height: 320px;
 	text-align: center;
-	margin:0 auto;
+	margin: 0 auto !important;
 }
 
 .hometext{
@@ -175,16 +175,22 @@ video#bgvid {
 
 
 
-.topleftlogo{
+#topleftlogo{
+	
 	margin: 10px;
 	width: 110px;
-
+	background-image: url('gaHeader.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-.topleftlogo:hover{
+#topleftlogo:hover{
+	background-image: url('gaHeader2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-color: rgba(0,0,0,0)!important;
 	content: url('gaHeader2.png');
 	/*background-image: url('gaHeader2.png');*/
 	-webkit-transition-delay: 0.5s ease;
-
 }
 
 .hambaga{
@@ -193,5 +199,27 @@ video#bgvid {
 
 .hambaga:hover{
 	content: url('hambaga2.png');
+}
+
+#modal{
+	text-align: right;
+	width: 500px;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	background-color: rgba(0,0,0,0.5);
+	color: rgba(255,255,255,0.9) !important;
+
+}
+#modal a{
+	text-decoration: underline;
+	color: white !important;
+}
+
+#modal h1{
+	color: rgba(255,255,255,0.9) !important;
+}
+
+.close-reveal-modal{
+	text-decoration: none !important;
 }
 
