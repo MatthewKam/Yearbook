@@ -115,7 +115,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 	},
 	{	image: '/assets/dinna.jpg',
 		name: 'Dinna Gonzales',
-		location: 'Orange County, CA',
+		location: 'Cerritos, CA',
 		github: "https://github.com/dinnagonzales",
 		linkedin: "https://www.linkedin.com/in/dinnagonzales",
 		pwebsite: "http://www.dinnagonzales.com",

@@ -21,15 +21,21 @@
       <li><%= link_to "ABOUT WDI", static_pages_path(anchor:'wdihome'), class: "navlink" %></li>
       <li><a href="#" data-reveal-id="modal" class= "navlink">CREATORS</a></li>
 
+        
         <div id="modal" class="reveal-modal" data-reveal>
-            <h1>Built by:</h1>
+            <h1>Built By:</h1>
               <p><a href="https://www.linkedin.com/in/dinnagonzales">Dinna Gonzales</a> & 
               	<a href="https://www.linkedin.com/in/mattkam">Matt Kam</a></p>
-            <h1>Contributors</h1>
-              <p>Shane Fitzgerald, Paul Kim, Kris Coulson, Mike Wong, Christa Hartsock and Albert Liao.</p>
+            <h1>Contributors:</h1>
+            	<p>
+            	<a href="https://www.linkedin.com/pub/paul-kim/94/456/3">Paul Kim</a>, 
+            	<a href="https://www.linkedin.com/in/mikewong79">Mike Wong</a>, 
+            	<a href="https://www.linkedin.com/in/albertliao">Albert Liao</a>, 
+            	<a href="https://www.linkedin.com/in/kriscoulson">Kris Coulson</a>, 
+            	<a href="https://www.linkedin.com/pub/shane-fitzgerald/77/688/145/">Shane Fitzgerald</a>, and 
+            	<a href="https://www.linkedin.com/pub/christa-hartsock/2a/538/529">Christa Hartsock.</a></p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
-
        
     </ul>
   </section>
@@ -44,25 +50,29 @@
 					<section>
 						<ul class="da-thumbs" id="da-thumbs">
 							<li>
+
 								<img ng-src="{{student.image}}" class="studentpic"> 
+								<p id="nameonpic">{{student.name}}</p>
 								<div class="da-thumbs1">
 									<span class="da-thumbs2">
-										<div id="name">{{student.name}}</div><br />
-										<div id="location">{{student.location}}</div><br />
+										<div id="email" class="link">
+											<a href="mailto:{{student.contact}}?subject=GA ROCKS!!!"><strong>Contact Me</srong></a>
+										</div>
+										<div id="website" class="link">
+											<a href="{{student.pwebsite}}" target="_blank" class="proflink">Portfolio</a>
+										</div><br>
+									
 											<div id="buttons">
 												<a href="{{student.github}}" target="_blank">
 													<div class="ghubbutton"></div>
 												</a>
 												<a href="{{student.linkedin}}" target="_blank" id="linkedin">
 													<div class="linkedinbutton"></div>
-												</a><br />
+												</a>
+												
 											</div>
-										<div id="website" class="link">
-											<a href="{{student.pwebsite}}" target="_blank" class="proflink">Portfolio</a>
-										</div><br>
-										<div id="email" class="link">
-											<a href="mailto:{{student.contact}}?subject=GA ROCKS!!!"><strong>Contact Me</srong></a>
-										</div>
+										<div id="location">{{student.location}}</div>
+									
 									</span>
 								</div>
 							</li>
