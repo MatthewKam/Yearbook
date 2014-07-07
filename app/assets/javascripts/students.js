@@ -6,7 +6,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Westwood, CA',
 		github: "https://github.com/Aarontsang8",
 		linkedin: "http://www.linkedin.com/pub/aaron-tsang/66/769/322",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "aarontsang8@gmail.com"
 	},
 	{	image: '/assets/Albert.jpg',
@@ -14,7 +14,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Orange County, CA',
 		github: "https://github.com/albertliao",
 		linkedin: "http://www.linkedin.com/in/albertliao/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "al_liao8@yahoo.com"
 	},
 	{	image: '/assets/Alex.jpg',
@@ -22,7 +22,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Santa Monica, CA',
 		github: "https://github.com/sosfacekilla",
 		linkedin: "https://www.linkedin.com/in/alexandrasos/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "alexandra.d.sos@gmail.com"
 	},
 	{	image: '/assets/Andrew.jpg',
@@ -30,7 +30,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'West Hollywood, CA',
 		github: "https://github.com/AndrewDonovan",
 		linkedin: "https://www.linkedin.com/pub/andrew-donovan/2a/24/b18",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "apdonova@gmail.com"
 	},
 	{	image: '/assets/anthony.png',
@@ -38,7 +38,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Orange County, CA',
 		github: "https://github.com/AnthonyCorrado",
 		linkedin: "http://www.linkedin.com/in/anthonymcorrado/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "anthonymcorrado@gmail.com"
 	},
 	{	image: '/assets/Areg.jpg',
@@ -46,7 +46,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Glendale, CA',
 		github: "https://github.com/aabrahamians",
 		linkedin: "https://www.linkedin.com/in/aregabrahamians",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "aabrahamians@gmail.com"
 	},
 	{	image: '/assets/Brian.png',
@@ -54,7 +54,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Glendora, CA',
 		github: "https://github.com/JBrianGordon",
 		linkedin: "https://www.linkedin.com/in/jbriangordon/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "bribios@gmail.com"
 	},
 	{	image: '/assets/Callie.jpg',
@@ -62,7 +62,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Sierra Madre, CA',
 		github: "https://github.com/Calliejb",
 		linkedin: "https://www.linkedin.com/pub/callie-burke/2a/60a/bb1/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "aarontsang8@gmail.com"
 	},
 	{	image: '/assets/charly.png',
@@ -70,7 +70,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/charlyy",
 		linkedin: "http://www.linkedin.com/pub/charly-yoon/58/a9a/631",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "https://www.charlyyoon.com",
 		contact: "cyoon90@yahoo.com"
 	},
 	{	image: '/assets/Christa.jpg',
@@ -86,7 +86,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Santa Monica, CA',
 		github: "http://www.github.com/c-hua",
 		linkedin: "http://www.linkedin.com/in/christiehua",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "christiehua@gmail.com"
 	},
 	{	image: '/assets/Clarence.jpg',
@@ -94,7 +94,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/cgdang",
 		linkedin: "https://www.linkedin.com/pub/clarence-dang/16/359/b45",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "cgdang@gmail.com"
 	},
 	{	image: '/assets/Collin.jpg',
@@ -102,7 +102,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Ventura, CA',
 		github: "https://github.com/colindcampbell",
 		linkedin: "https://www.linkedin.com/pub/colin-campbell/98/189/15b",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "colindcamp@gmail.com"
 	},
 	{	image: '/assets/dean.jpg',
@@ -110,7 +110,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/Deanskee",
 		linkedin: "https://www.linkedin.com/pub/dean-mandile/53/ba7/433",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "mandile24@gmail.com"
 	},
 	{	image: '/assets/dinna.jpg',
@@ -118,7 +118,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Cerritos, CA',
 		github: "https://github.com/dinnagonzales",
 		linkedin: "https://www.linkedin.com/in/dinnagonzales",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "https://dinnagonzales.com",
 		contact: "dinnagonzales.05@gmail.com"
 	},
 	{	image: '/assets/eric.jpg',
@@ -126,7 +126,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Rowland Heights, CA',
 		github: "https://github.com/me33dy",
 		linkedin: "https://www.linkedin.com/pub/eric-wu/68/31b/b28",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "wuerict@gmail.com"
 	},
 	{	image: '/assets/Ernest.jpg',
@@ -134,7 +134,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Orange County, CA',
 		github: "https://github.com/dinnagonzales",
 		linkedin: "https://www.linkedin.com/in/dinnagonzales",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "ernest.wolfe@gmail.com"
 	},
 	{	image: '/assets/James.jpg',
@@ -142,7 +142,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Santa Monica, CA',
 		github: "https://github.com/milanij",
 		linkedin: "http://www.linkedin.com/pub/james-milani/71/a68/179",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "james.milani@gmail.com"
 	},
 	{	image: '/assets/Jeff.jpg',
@@ -150,7 +150,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Torrance, CA',
 		github: "https://github.com/jeffreytakaki",
 		linkedin: "http://www.linkedin.com/pub/jeff-takaki/b/681/667/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "jtakaki1@gmail.com"
 	},
 	{	image: '/assets/Kelly.jpg',
@@ -158,7 +158,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Redondo Beach, CA',
 		github: "http://www.github.com/kellygajewski",
 		linkedin: "https://www.linkedin.com/in/kellygajewski",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "kellyagajewski@gmail.com"
 	},
 	{	image: '/assets/Kelsey.jpg',
@@ -166,7 +166,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Redondo Beach, CA',
 		github: "https://github.com/kelseyledford/",
 		linkedin: "https://www.linkedin.com/in/kelseyledford",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "kelsey.d.ledford@gmail.com"
 	},
 	{	image: '/assets/Kris.jpg',
@@ -174,7 +174,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/KrisCoulson",
 		linkedin: "https://www.linkedin.com/in/kriscoulson",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "kriscoulson@gmail.com"
 	},
 	{	image: '/assets/Lex.jpg',
@@ -182,7 +182,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/lexalexander10",
 		linkedin: "http://www.linkedin.com/pub/lex-alexander/41/16/b76/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "l.alexander10@gmail.com"
 	},
 	{	image: '/assets/Mallory.jpg',
@@ -190,7 +190,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Santa Monica, CA',
 		github: "https://github.com/malloryreuls",
 		linkedin: "https://www.linkedin.com/in/malloryreulman",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "mreulman@gmail.com"
 	},
 	{	image: '/assets/Mary.jpg',
@@ -198,7 +198,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Orange County, CA',
 		github: "https://github.com/mkeenan",
 		linkedin: "http://www.linkedin.com/pub/mary-keenan/1/145/b54/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "mkeenan.asher@gmail.com"
 	},
 	{	image: '/assets/Matt.jpg',
@@ -206,7 +206,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Torrance, CA',
 		github: "https://github.com/matthewkam",
 		linkedin: "https://www.linkedin.com/in/mattkam",
-		pwebsite: "http://www.mattk.am",
+		pwebsite: "http://www.mattkam.com",
 		contact: "matt.ph.kam@gmail.com"
 	},
 	{	image: '/assets/Mel.jpg',
@@ -214,7 +214,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Marina del Rey, CA',
 		github: "https://github.com/mplaza",
 		linkedin: "https://www.linkedin.com/pub/melanie-plaza/30/747/b78",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "http://melanieplaza.com/",
 		contact: "melanieplaza@gmail.com"
 	},
 	{	image: '/assets/MelanieN.jpg',
@@ -222,7 +222,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Alhambra, CA',
 		github: "https://github.com/KiasuChick",
 		linkedin: "https://www.linkedin.com/in/melanienichols/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "me@kiasuchick.com"
 	},
 	{	image: '/assets/MikeC.jpg',
@@ -230,7 +230,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Highland Park, CA',
 		github: "https://github.com/choimichael",
 		linkedin: "https://www.linkedin.com/pub/michael-choi/b/b8/612",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "typeinmichael@gmail.com"
 	},
 	{	image: '/assets/MikeD.png',
@@ -238,7 +238,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Encino, CA',
 		github: "https://github.com/mikeduval42",
 		linkedin: "http://www.linkedin.com/pub/michael-duval/36/811/a39",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "mikeduval42@gmail.com"
 	},
 	{	image: '/assets/MikeW.jpg',
@@ -246,7 +246,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/mikewong79/",
 		linkedin: "https://www.linkedin.com/in/mikewong79",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "mikewong79@gmail.com"
 	},
 	{	image: '/assets/Omar.jpg',
@@ -254,7 +254,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Thousand Oaks, CA',
 		github: "https://github.com/atayee",
 		linkedin: "https://www.linkedin.com/pub/nazir-o-atayee/83/477/109",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "nazir_21@hotmail.com"
 	},
 	{	image: '/assets/Paul.jpg',
@@ -262,7 +262,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Woodland Hills, CA',
 		github: "https://github.com/paulhyunkim",
 		linkedin: "https://www.linkedin.com/pub/paul-kim/94/456/3",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "paulhyunkim@gmail.com"
 	},
 	{	image: '/assets/Phoebe.jpg',
@@ -270,7 +270,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Orange County, CA',
 		github: "https://github.com/dinnagonzales",
 		linkedin: "https://www.linkedin.com/in/dinnagonzales",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "phoebe@laudville.com"
 	},
 	{	image: '/assets/Rocky.jpg',
@@ -278,7 +278,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Long Beach, CA',
 		github: "https://github.com/slateness77",
 		linkedin: "https://www.linkedin.com/in/rockynicholson/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "slateness77@gmail.com"
 	},
 	{	image: '/assets/Shane.jpg',
@@ -286,7 +286,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Santa Monica, CA',
 		github: "https://github.com/shanefitzgerald",
 		linkedin: "https://www.linkedin.com/pub/shane-fitzgerald/77/688/145/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "shanesrf@gmail.com"
 	},
 	{	image: '/assets/Stephy.jpg',
@@ -294,7 +294,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/Stephyraad",
 		linkedin: "https://www.linkedin.com/in/dinnagonzales",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "stephy.raad@gmail.com"
 	},
 	{	image: '/assets/Steven.jpg',
@@ -302,7 +302,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Orange County, CA',
 		github: "https://github.com/slazatin",
 		linkedin: "http://www.linkedin.com/pub/steven-lazatin/48/61/6a8",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "slazatin@gmail.com"
 	},
 	{	image: '/assets/Thach.jpg',
@@ -310,7 +310,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Huntington Beach, CA',
 		github: "https://github.com/ttran289",
 		linkedin: "http://www.linkedin.com/pub/thach-tran/4b/865/46b/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "thachtran289@gmail.com"
 	},
 	{	image: '/assets/TJ.jpg',
@@ -318,7 +318,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/hellotj",
 		linkedin: "https://www.linkedin.com/in/thomander",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "tthomander@gmail.com"
 	},
 	{	image: '/assets/Will.jpg',
@@ -326,7 +326,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Mar Vista, CA',
 		github: "https://github.com/fooeyandnuts",
 		linkedin: "https://www.linkedin.com/in/williamsipes/",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "william.sipes@gmail.com"
 	},
 	{	image: '/assets/Zeke.jpg',
@@ -334,7 +334,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Venice, CA',
 		github: "https://github.com/zekeslotsky",
 		linkedin: "https://www.linkedin.com/pub/zeke-slotsky/13/967/356",
-		pwebsite: "http://www.dinnagonzales.com",
+		pwebsite: "",
 		contact: "zekejacobs@hotmail.com"
 	}];
 }]);
