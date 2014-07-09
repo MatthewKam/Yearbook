@@ -249,14 +249,14 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		pwebsite: "",
 		contact: "mikewong79@gmail.com"
 	},
-	{	image: '/assets/Omar.jpg',
-		name: 'Nazir Omar Atayee',
-		location: 'Thousand Oaks, CA',
-		github: "https://github.com/atayee",
-		linkedin: "https://www.linkedin.com/pub/nazir-o-atayee/83/477/109",
-		pwebsite: "",
-		contact: "nazir_21@hotmail.com"
-	},
+	// {	image: '/assets/Omar.jpg',
+	// 	name: 'Nazir Omar Atayee',
+	// 	location: 'Thousand Oaks, CA',
+	// 	github: "https://github.com/atayee",
+	// 	linkedin: "https://www.linkedin.com/pub/nazir-o-atayee/83/477/109",
+	// 	pwebsite: "",
+	// 	contact: "nazir_21@hotmail.com"
+	// },
 	{	image: '/assets/Paul.jpg',
 		name: 'Paul Kim',
 		location: 'Woodland Hills, CA',
