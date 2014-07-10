@@ -46,7 +46,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Glendale, CA',
 		github: "https://github.com/aabrahamians",
 		linkedin: "https://www.linkedin.com/in/aregabrahamians",
-		pwebsite: "",
+		pwebsite: "http://r-egg.com/",
 		contact: "aabrahamians@gmail.com"
 	},
 	{	image: '/assets/Brian.png',
@@ -98,7 +98,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		contact: "cgdang@gmail.com"
 	},
 	{	image: '/assets/Collin.jpg',
-		name: 'Collin Campbell',
+		name: 'Colin Campbell',
 		location: 'Ventura, CA',
 		github: "https://github.com/colindcampbell",
 		linkedin: "https://www.linkedin.com/pub/colin-campbell/98/189/15b",
@@ -318,7 +318,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/hellotj",
 		linkedin: "https://www.linkedin.com/in/thomander",
-		pwebsite: "",
+		pwebsite: "http://tjthomander.com",
 		contact: "tthomander@gmail.com"
 	},
 	{	image: '/assets/Will.jpg',
