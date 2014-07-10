@@ -190,7 +190,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Santa Monica, CA',
 		github: "https://github.com/malloryreuls",
 		linkedin: "https://www.linkedin.com/in/malloryreulman",
-		pwebsite: "",
+		pwebsite: "http://malloryreulman.com/",
 		contact: "mreulman@gmail.com"
 	},
 	{	image: '/assets/Mary.jpg',
