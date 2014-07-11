@@ -70,7 +70,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/charlyy",
 		linkedin: "http://www.linkedin.com/pub/charly-yoon/58/a9a/631",
-		pwebsite: "https://www.charlyyoon.com",
+		pwebsite: "http://www.charlyyoon.com",
 		contact: "cyoon90@yahoo.com"
 	},
 	{	image: '/assets/Christa.jpg',
@@ -118,7 +118,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Cerritos, CA',
 		github: "https://github.com/dinnagonzales",
 		linkedin: "https://www.linkedin.com/in/dinnagonzales",
-		pwebsite: "https://dinnagonzales.com",
+		pwebsite: "http://dinnagonzales.com",
 		contact: "dinnagonzales.05@gmail.com"
 	},
 	{	image: '/assets/eric.jpg',
@@ -166,7 +166,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Redondo Beach, CA',
 		github: "https://github.com/kelseyledford/",
 		linkedin: "https://www.linkedin.com/in/kelseyledford",
-		pwebsite: "https://kelseyledford.com",
+		pwebsite: "http://kelseyledford.com",
 		contact: "kelsey.d.ledford@gmail.com"
 	},
 	{	image: '/assets/Kris.jpg',
@@ -262,7 +262,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Woodland Hills, CA',
 		github: "https://github.com/paulhyunkim",
 		linkedin: "https://www.linkedin.com/pub/paul-kim/94/456/3",
-		pwebsite: "https://paulhyunkim.com",
+		pwebsite: "http://paulhyunkim.com",
 		contact: "paulhyunkim@gmail.com"
 	},
 	{	image: '/assets/Phoebe.jpg',
