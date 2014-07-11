@@ -166,7 +166,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Redondo Beach, CA',
 		github: "https://github.com/kelseyledford/",
 		linkedin: "https://www.linkedin.com/in/kelseyledford",
-		pwebsite: "",
+		pwebsite: "https://kelseyledford.com",
 		contact: "kelsey.d.ledford@gmail.com"
 	},
 	{	image: '/assets/Kris.jpg',
@@ -262,14 +262,14 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Woodland Hills, CA',
 		github: "https://github.com/paulhyunkim",
 		linkedin: "https://www.linkedin.com/pub/paul-kim/94/456/3",
-		pwebsite: "",
+		pwebsite: "https://paulhyunkim.com",
 		contact: "paulhyunkim@gmail.com"
 	},
 	{	image: '/assets/Phoebe.jpg',
 		name: 'Phoebe Scott',
 		location: 'Orange County, CA',
-		github: "https://github.com/dinnagonzales",
-		linkedin: "https://www.linkedin.com/in/dinnagonzales",
+		github: "",
+		linkedin: "",
 		pwebsite: "",
 		contact: "phoebe@laudville.com"
 	},
