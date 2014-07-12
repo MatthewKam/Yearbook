@@ -22,7 +22,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Santa Monica, CA',
 		github: "https://github.com/sosfacekilla",
 		linkedin: "https://www.linkedin.com/in/alexandrasos/",
-		pwebsite: "",
+		pwebsite: "http://alexsos.com",
 		contact: "alexandra.d.sos@gmail.com"
 	},
 	{	image: '/assets/Andrew.jpg',
@@ -334,7 +334,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Venice, CA',
 		github: "https://github.com/zekeslotsky",
 		linkedin: "https://www.linkedin.com/pub/zeke-slotsky/13/967/356",
-		pwebsite: "",
+		pwebsite: "http://zekeslotsky.strikingly.com",
 		contact: "zekejacobs@hotmail.com"
 	}];
 }]);
