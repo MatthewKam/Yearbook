@@ -246,7 +246,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/mikewong79/",
 		linkedin: "https://www.linkedin.com/in/mikewong79",
-		pwebsite: "",
+		pwebsite: "http://reveala.s3-website-us-west-2.amazonaws.com/#/start",
 		contact: "mikewong79@gmail.com"
 	},
 	// {	image: '/assets/Omar.jpg',
