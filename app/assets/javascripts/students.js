@@ -109,7 +109,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		name: 'Dean Mandile',
 		location: 'Los Angeles, CA',
 		github: "https://github.com/Deanskee",
-		linkedin: "https://www.linkedin.com/pub/dean-mandile/53/ba7/433",
+		linkedin: "https://www.linkedin.com/in/deanmandile",
 		pwebsite: "",
 		contact: "mandile24@gmail.com"
 	},
@@ -158,7 +158,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Redondo Beach, CA',
 		github: "http://www.github.com/kellygajewski",
 		linkedin: "https://www.linkedin.com/in/kellygajewski",
-		pwebsite: "",
+		pwebsite: "http://www.kellygajewski.com",
 		contact: "kellyagajewski@gmail.com"
 	},
 	{	image: '/assets/Kelsey.jpg',
@@ -174,7 +174,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/KrisCoulson",
 		linkedin: "https://www.linkedin.com/in/kriscoulson",
-		pwebsite: "",
+		pwebsite: "http://kriscoulson.com",
 		contact: "kriscoulson@gmail.com"
 	},
 	{	image: '/assets/Lex.jpg',
@@ -286,7 +286,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Santa Monica, CA',
 		github: "https://github.com/shanefitzgerald",
 		linkedin: "https://www.linkedin.com/pub/shane-fitzgerald/77/688/145/",
-		pwebsite: "",
+		pwebsite: "http://shanefitzgerald.github.io/",
 		contact: "shanesrf@gmail.com"
 	},
 	{	image: '/assets/Stephy.jpg',
