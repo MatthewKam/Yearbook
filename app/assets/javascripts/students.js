@@ -6,7 +6,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Westwood, CA',
 		github: "https://github.com/Aarontsang8",
 		linkedin: "http://www.linkedin.com/pub/aaron-tsang/66/769/322",
-		pwebsite: "",
+		pwebsite: "http://aarontsang.works/",
 		contact: "aarontsang8@gmail.com"
 	},
 	{	image: '/assets/Albert.jpg',
@@ -149,8 +149,8 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		name: 'Jeffrey Takaki',
 		location: 'Torrance, CA',
 		github: "https://github.com/jeffreytakaki",
-		linkedin: "http://www.linkedin.com/pub/jeff-takaki/b/681/667/",
-		pwebsite: "",
+		linkedin: "http://www.linkedin.com/in/jeffrey",
+		pwebsite: "http://jeffreytakaki.com",
 		contact: "jtakaki1@gmail.com"
 	},
 	{	image: '/assets/Kelly.jpg',
