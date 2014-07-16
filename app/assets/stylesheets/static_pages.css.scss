@@ -146,6 +146,25 @@ p{
     margin-right:110px;
 }
 }
+@media screen and (max-width:1280px){
+#homecontain{
+    width:870px !important;
+}
+#headhome h1{
+    margin-left:-21px !important
+}
+#headhome p{
+    margin-left: -20px !important;
+}
+#skills{
+    width: 470px;
+    margin-top: 60px;
+}
+#laptop{
+    width: 485px;
+    margin-top: 70px;
+}
+}
 
 @media screen and (max-width:900px){
 #homecontain{
@@ -175,6 +194,28 @@ p{
     width:460px;
     margin-top:100px;
     margin-right:27px;
+}
+}
+@media screen and (max-width:860px){
+#homecontain{
+    width:750px !important;
+}
+#headhome h1{
+    font-size: 75px !important;
+    margin-top: -5px !important;
+    width: 750px !important;
+}
+#headhome p{
+    margin-top: -43px !important;
+    width: 700px !important;
+}
+#skills{
+    width: 420px !important;
+margin-top: 80px !important;
+}
+#laptop{
+width: 420px !important;
+margin-top: 90px !important;
 }
 }
 @media screen and (max-width: 675px){
@@ -243,6 +284,35 @@ p{
     background-image:none;
 }
 }
+@media screen and (max-width:385px){
+#homecontain{
+    width: 275px;
+}
+#headhome h1{
+    font-size: 45px;
+letter-spacing: 1px;
+margin-top: -21px;
+width: 285px;
+margin-left: -5px;
+}
+#headhome p{
+    margin-top: 0px;
+    margin-left: -5px;
+}
+#skills{
+    width: 335px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+#laptop{
+    background-image:none;
+}
+.space {
+margin-left: -95px;
+width: 800px ;
+height: 185px ;
+}
+}
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 #headhome h1 {
 font-size: 90px;
@@ -277,7 +347,33 @@ margin-left: 40px;
 }
 
 }
-
-
+@media screen and (max-width:360px) and (min-width:320px){
+#homecontain{
+    width: 275px !important;
+}
+#headhome h1{
+    font-size: 40px !important;
+letter-spacing: 1px;
+margin-top: -21px !important;
+width: 285px !important;
+}
+#headhome p{
+    font-size: 18px;
+    margin-top: 0px !important;
+}
+#skills{
+    width: 305px !important;
+    margin-top: 10px !important;
+    margin-left: 11px;;
+}
+#laptop{
+    background-image:none;
+}
+.space {
+margin-left: -95px !important;
+width: 765px !important;
+height: 178px !important;
+}
+}
 
 
