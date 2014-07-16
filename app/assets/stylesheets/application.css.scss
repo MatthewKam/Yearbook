@@ -119,7 +119,7 @@ video#bgvid {
 	background-size: cover;
 	background-position:center center;
 	width: 100%;
-	height:100vh;
+	height:805px;
 	overflow: hidden;
 	background-repeat:no-repeat;
 }
@@ -251,6 +251,9 @@ video#bgvid {
 	.GAlogo {
 		width: 310px;
 		top:0;
+	}
+	.classphotohome {
+		height: 570px;
 	}
 	.logobox {
 		margin-top: -60px;
