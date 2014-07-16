@@ -238,6 +238,90 @@ video#bgvid {
 	padding:0 6px !important;
 	text-align: center !important;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	video#bgvid {
+		display: none;
+	}
+	.GAlogo {
+		width: 310px;
+	}
+	.logobox {
+		margin-top: -60px;
+	}
+	.hometext {
+		color: black;
+		font-size: 22px;
+		margin-left: -10px;
+	}
+	.hometext1 {
+		color: black;
+	}
+	.hometext2 {
+		margin-top: -10px;
+		color: black;
+	}
+	.yeartext {
+		color: black;
+	}
+	#headhome h1 {
+		margin-left: -30px !important;
+	}
+	#headhome p {
+
+		margin-left: -30px !important;
+	}
+	#skills {
+		width: 295px !important;
+	}
+	p#footer{
+		font-size: 10px !important;
+		line-height: 1.4 !important;
+		margin-bottom: 0 !important;
+	}
+	#ilm {
+		margin-top: 270px;
+		margin-left: 56px;
+	}
+	#jojo{
+		margin-top: 390px;
+	margin-left: 55px;
+	}
+	.space {
+		margin-bottom: 170px !important;
+		height: 77px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
