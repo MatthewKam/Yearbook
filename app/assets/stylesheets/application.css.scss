@@ -239,11 +239,18 @@ video#bgvid {
 	text-align: center !important;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.home{
+		height: 500px;
+	}
 	video#bgvid {
 		display: none;
 	}
+	div#container {
+		overflow: hidden;
+	}
 	.GAlogo {
 		width: 310px;
+		top:0;
 	}
 	.logobox {
 		margin-top: -60px;
@@ -263,6 +270,20 @@ video#bgvid {
 	.yeartext {
 		color: black;
 	}
+	#wdihome{
+		height: 575px;
+	}
+	#laptop{
+		display:none;
+		height: 0;
+	}
+	#bodyhome {
+		height: 375px !important;
+	}
+	#headhome {
+		height: 200px !important;
+		background-color: #231f20;
+	}
 	#headhome h1 {
 		margin-left: -30px !important;
 	}
@@ -270,7 +291,15 @@ video#bgvid {
 
 		margin-left: -30px !important;
 	}
+	#arrowscroll2 {
+		margin-top: 310px;
+		left: 40%;
+	}
 	#skills {
+		height: 334px;
+	
+		margin-top: 50px !important;
+		margin-left: 13px;
 		width: 295px !important;
 	}
 	p#footer{
@@ -284,12 +313,14 @@ video#bgvid {
 	}
 	#jojo{
 		margin-top: 390px;
-	margin-left: 55px;
+		margin-left: 55px;
 	}
 	.space {
-		margin-bottom: 170px !important;
-		height: 77px !important;
-	}
+		margin-left: -75px;
+		height: 160px;
+		width: 660px;
+		margin-top: -50px;
+}
 }
 
 
