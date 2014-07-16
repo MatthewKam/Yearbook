@@ -243,7 +243,40 @@ p{
     background-image:none;
 }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+#headhome h1 {
+font-size: 90px;
+letter-spacing: 1px;
+margin-top: -15px;
+margin-left: 10px;
+width: 870px;
+}
+#headhome p {
+font-size: 53px;
+margin-top: -50px;
+margin-left: 20px;
+width: 800px;
+}
+#homecontain {
+height: 150px;
+width: 940px;
+margin-left: 80px;
+padding-top: 38px;
+}
+#laptop {
+height: 450px;
+width: 521px;
+margin-top: 65px;
+margin-right: 50px;
+}
+#skills {
+height: 440px;
+width: 500px;
+margin-top: 70px;
+margin-left: 40px;
+}
 
+}
 
 
 
