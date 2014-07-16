@@ -57,7 +57,9 @@
 .ch-item:hover .ch-info {
     transform: rotate3d(0,1,0,-180deg);
 }
-
+p{
+    margin-bottom:0 !important;
+}
 #headhome{
     width:100%;
     height:225px;
