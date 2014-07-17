@@ -206,7 +206,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Torrance, CA',
 		github: "https://github.com/matthewkam",
 		linkedin: "https://www.linkedin.com/in/mattkam",
-		pwebsite: "http://www.mattkam.herokuapp.com",
+		pwebsite: "http://mattkam.com",
 		contact: "matt.ph.kam@gmail.com"
 	},
 	{	image: '/assets/Mel.jpg',
