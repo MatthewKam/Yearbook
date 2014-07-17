@@ -22,7 +22,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Santa Monica, CA',
 		github: "https://github.com/sosfacekilla",
 		linkedin: "https://www.linkedin.com/in/alexandrasos/",
-		pwebsite: "http://alexsos.com",
+		pwebsite: "http://alexsos.herokuapp.com/developers",
 		contact: "alexandra.d.sos@gmail.com"
 	},
 	{	image: '/assets/Andrew.jpg',
@@ -195,10 +195,10 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 	},
 	{	image: '/assets/Mary.jpg',
 		name: 'Mary Keenan',
-		location: 'Orange County, CA',
+		location: 'Studio City, CA',
 		github: "https://github.com/mkeenan",
 		linkedin: "http://www.linkedin.com/pub/mary-keenan/1/145/b54/",
-		pwebsite: "",
+		pwebsite: "http://marykeenan.co",
 		contact: "mkeenan.asher@gmail.com"
 	},
 	{	image: '/assets/Matt.jpg',
@@ -206,7 +206,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Torrance, CA',
 		github: "https://github.com/matthewkam",
 		linkedin: "https://www.linkedin.com/in/mattkam",
-		pwebsite: "http://www.mattkam.com",
+		pwebsite: "http://www.mattkam.herokuapp.com",
 		contact: "matt.ph.kam@gmail.com"
 	},
 	{	image: '/assets/Mel.jpg',
