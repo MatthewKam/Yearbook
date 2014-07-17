@@ -239,40 +239,23 @@ video#bgvid {
 	text-align: center !important;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.home{
-		height: 500px;
-	}
-	video#bgvid {
-		display: none;
-	}
-	div#container {
-		overflow: hidden;
-	}
-	.GAlogo {
-		width: 310px;
-		top:0;
-	}
-	.classphotohome {
-		height: 570px;
-	}
-	.logobox {
-		margin-top: -60px;
-	}
+	.home{height: 500px;}
+	video#bgvid {display: none;}
+	div#container {overflow: hidden;}
+	.GAlogo {width: 310px;top:0;}
+	.classphotohome {height: 570px;}
+	.logobox {margin-top: -60px;}
 	.hometext {
 		color: black;
 		font-size: 22px;
 		margin-left: -10px;
 	}
-	.hometext1 {
-		color: black;
-	}
+	.hometext1 {color: black;}
 	.hometext2 {
 		margin-top: -10px;
 		color: black;
 	}
-	.yeartext {
-		color: black;
-	}
+	.yeartext {color: black;}
 	#wdihome{
 		height: 575px;
 	}
@@ -283,10 +266,13 @@ video#bgvid {
 	#bodyhome {
 		height: 375px !important;
 	}
-	#headhome {
-		height: 200px !important;
-		background-color: #231f20;
-	}
+	#headhome h1 {
+font-size: 35px !important;
+letter-spacing: 1px;
+margin-top: -11px !important;
+width: 285px !important;
+margin-left: -10px !important;
+}
 	#arrowscroll2 {
 		margin-top: 310px;
 		left: 40%;
@@ -316,7 +302,7 @@ video#bgvid {
 		height: 160px;
 		width: 660px;
 		margin-top: -50px;
-}
+	}
 }
 
 
