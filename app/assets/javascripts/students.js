@@ -110,7 +110,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/Deanskee",
 		linkedin: "https://www.linkedin.com/in/deanmandile",
-		pwebsite: "",
+		pwebsite: "http://deanmandile.com/",
 		contact: "mandile24@gmail.com"
 	},
 	{	image: '/assets/dinna.jpg',
