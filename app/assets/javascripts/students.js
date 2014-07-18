@@ -155,7 +155,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 	},
 	{	image: '/assets/Kelly.jpg',
 		name: 'Kelly Gajewski',
-		location: 'Redondo Beach, CA',
+		location: 'Los Angeles, CA',
 		github: "http://www.github.com/kellygajewski",
 		linkedin: "https://www.linkedin.com/in/kellygajewski",
 		pwebsite: "http://www.kellygajewski.com",
