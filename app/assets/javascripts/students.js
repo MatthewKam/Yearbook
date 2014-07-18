@@ -14,7 +14,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Orange County, CA',
 		github: "https://github.com/albertliao",
 		linkedin: "http://www.linkedin.com/in/albertliao/",
-		pwebsite: "",
+		pwebsite: "http://albert-liao.com/",
 		contact: "al_liao8@yahoo.com"
 	},
 	{	image: '/assets/Alex.jpg',
