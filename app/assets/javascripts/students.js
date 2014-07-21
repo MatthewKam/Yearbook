@@ -93,8 +93,8 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		name: 'Clarence Dang',
 		location: 'Los Angeles, CA',
 		github: "https://github.com/cgdang",
-		linkedin: "https://www.linkedin.com/pub/clarence-dang/16/359/b45",
-		pwebsite: "",
+		linkedin: "www.linkedin.com/in/clarencedang1",
+		pwebsite: "http://www.clarence-dang.com",
 		contact: "cgdang@gmail.com"
 	},
 	{	image: '/assets/Collin.jpg',
