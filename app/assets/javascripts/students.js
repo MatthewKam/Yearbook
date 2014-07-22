@@ -38,7 +38,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Orange County, CA',
 		github: "https://github.com/AnthonyCorrado",
 		linkedin: "http://www.linkedin.com/in/anthonymcorrado/",
-		pwebsite: "",
+		pwebsite: "http://www.project5.io",
 		contact: "anthonymcorrado@gmail.com"
 	},
 	{	image: '/assets/Areg.jpg',
