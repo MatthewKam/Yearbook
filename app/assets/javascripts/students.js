@@ -62,7 +62,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Sierra Madre, CA',
 		github: "https://github.com/Calliejb",
 		linkedin: "https://www.linkedin.com/pub/callie-burke/2a/60a/bb1/",
-		pwebsite: "",
+		pwebsite: "http://calliejburke.com",
 		contact: "aarontsang8@gmail.com"
 	},
 	{	image: '/assets/charly.png',
@@ -235,7 +235,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 	},
 	{	image: '/assets/MikeD.png',
 		name: 'Mike Duval',
-		location: 'Encino, CA',
+		location: 'Ventura, CA',
 		github: "https://github.com/mikeduval42",
 		linkedin: "http://www.linkedin.com/in/mikekduval/",
 		pwebsite: "http://mikekduval.com",
