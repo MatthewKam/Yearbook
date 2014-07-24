@@ -294,7 +294,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/Stephyraad",
 		linkedin: "https://www.linkedin.com/in/dinnagonzales",
-		pwebsite: "",
+		pwebsite: "http://stephanieraad.com",
 		contact: "stephy.raad@gmail.com"
 	},
 	{	image: '/assets/Steven.jpg',
