@@ -38,7 +38,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Orange County, CA',
 		github: "https://github.com/AnthonyCorrado",
 		linkedin: "http://www.linkedin.com/in/anthonymcorrado/",
-		pwebsite: "",
+		pwebsite: "http://www.project5.io",
 		contact: "anthonymcorrado@gmail.com"
 	},
 	{	image: '/assets/Areg.jpg',
@@ -62,7 +62,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Sierra Madre, CA',
 		github: "https://github.com/Calliejb",
 		linkedin: "https://www.linkedin.com/pub/callie-burke/2a/60a/bb1/",
-		pwebsite: "",
+		pwebsite: "http://calliejburke.com",
 		contact: "aarontsang8@gmail.com"
 	},
 	{	image: '/assets/charly.png',
@@ -93,8 +93,8 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		name: 'Clarence Dang',
 		location: 'Los Angeles, CA',
 		github: "https://github.com/cgdang",
-		linkedin: "https://www.linkedin.com/pub/clarence-dang/16/359/b45",
-		pwebsite: "",
+		linkedin: "www.linkedin.com/in/clarencedang1",
+		pwebsite: "http://www.clarence-dang.com",
 		contact: "cgdang@gmail.com"
 	},
 	{	image: '/assets/Collin.jpg',
@@ -110,7 +110,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/Deanskee",
 		linkedin: "https://www.linkedin.com/in/deanmandile",
-		pwebsite: "",
+		pwebsite: "http://deanmandile.com/",
 		contact: "mandile24@gmail.com"
 	},
 	{	image: '/assets/dinna.jpg',
@@ -182,7 +182,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Los Angeles, CA',
 		github: "https://github.com/lexalexander10",
 		linkedin: "http://www.linkedin.com/pub/lex-alexander/41/16/b76/",
-		pwebsite: "",
+		pwebsite: "http://www.coderlex.com",
 		contact: "l.alexander10@gmail.com"
 	},
 	{	image: '/assets/Mallory.jpg',
@@ -230,15 +230,15 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Highland Park, CA',
 		github: "https://github.com/choimichael",
 		linkedin: "https://www.linkedin.com/pub/michael-choi/b/b8/612",
-		pwebsite: "",
+		pwebsite: "http://www.choimichael.com",
 		contact: "typeinmichael@gmail.com"
 	},
 	{	image: '/assets/MikeD.png',
 		name: 'Mike Duval',
-		location: 'Encino, CA',
+		location: 'Ventura, CA',
 		github: "https://github.com/mikeduval42",
 		linkedin: "http://www.linkedin.com/in/mikekduval/",
-		pwebsite: "",
+		pwebsite: "http://mikekduval.com",
 		contact: "mikeduval42@gmail.com"
 	},
 	{	image: '/assets/MikeW.jpg',
@@ -326,7 +326,7 @@ studentApp.controller('StudentCtrl', ['$scope', function($scope){
 		location: 'Mar Vista, CA',
 		github: "https://github.com/fooeyandnuts",
 		linkedin: "https://www.linkedin.com/in/williamsipes/",
-		pwebsite: "",
+		pwebsite: "http://www.williamsipes.com",
 		contact: "william.sipes@gmail.com"
 	},
 	{	image: '/assets/Zeke.jpg',
